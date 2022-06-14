@@ -16,9 +16,9 @@ namespace WinFormsApp1
             { "Magazine", 6 },
             { "Non_Fiction", 7 },
             { "SchoolBook", 8 },
-            { "Manga", 7 },
-            { "Fantasy", 7 },
-            { "Fantastic", 7 }
+            { "Novel", 7 },
+            { "Adventure", 7 },
+            { "Detective", 7 }
 
         };
         public string FileName;
@@ -26,7 +26,6 @@ namespace WinFormsApp1
         {
             this.FileName = fileName;
         }
-
         private static Deserialization deserialization;
         public static Deserialization GetDeserialization(string fileName)
         {
@@ -101,12 +100,12 @@ namespace WinFormsApp1
             return null;
         }
 
-        public List<PrintedEdition> Deserialize(string filename)
+        public List<PrintedEdition> Deserialize()
         {
             List<PrintedEdition> list = new List<PrintedEdition>();
             string s, type = "";
             int len;
-            FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream(this.FileName, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(fs);
             while (!reader.EndOfStream)
             {
@@ -124,7 +123,7 @@ namespace WinFormsApp1
                 list.Add(GetPrintedEdition(type, reader));
                 if (list[list.Count - 1] == null)
                 {
-                    MessageBox.Show("Invalid data");
+                    MessageBox.Show("Inavlid data");
                     return null;
                 }
             }

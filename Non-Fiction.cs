@@ -13,7 +13,6 @@ namespace WinFormsApp1
             this.type = "Non_Fiction";
         }
 
-
         public override void ShowInList(DataGridView dgv)
         {
             string cost = Convert.ToString(this.Ruble);

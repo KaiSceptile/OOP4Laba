@@ -12,7 +12,6 @@ namespace WinFormsApp1
         {
             this.type = "Magazine";
         }
-
         public override void ShowInList(DataGridView dgv)
         {
             string cost = Convert.ToString(this.Ruble);

@@ -4,11 +4,12 @@ using System.Text;
 
 namespace WinFormsApp1
 {
-    public interface IPlugin
+    public class Novel: Fiction
     {
-        void Run()
+        public Novel()
         {
-
+            this.type = "Novel";
+            this.Genre = "Роман";
         }
     }
 }

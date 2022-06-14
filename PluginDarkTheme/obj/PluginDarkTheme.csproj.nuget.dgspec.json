@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\OOP4Laba\\PluginDarkTheme\\PluginDarkTheme.csproj": {}
+    "C:\\Users\\hp\\Desktop\\4\\3\\PluginDarkTheme\\PluginDarkTheme.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\OOP4Laba\\PluginDarkTheme\\PluginDarkTheme.csproj": {
+    "C:\\Users\\hp\\Desktop\\4\\3\\PluginDarkTheme\\PluginDarkTheme.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\OOP4Laba\\PluginDarkTheme\\PluginDarkTheme.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\4\\3\\PluginDarkTheme\\PluginDarkTheme.csproj",
         "projectName": "PluginDarkTheme",
-        "projectPath": "C:\\Users\\hp\\Desktop\\OOP4Laba\\PluginDarkTheme\\PluginDarkTheme.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\4\\3\\PluginDarkTheme\\PluginDarkTheme.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\OOP4Laba\\PluginDarkTheme\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\4\\3\\PluginDarkTheme\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj": {
-                "projectPath": "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj"
+              "C:\\Users\\hp\\Desktop\\4\\3\\WinFormsApp1\\WinFormsApp1.csproj": {
+                "projectPath": "C:\\Users\\hp\\Desktop\\4\\3\\WinFormsApp1\\WinFormsApp1.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj": {
+    "C:\\Users\\hp\\Desktop\\4\\3\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\4\\3\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\4\\3\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\OOP4Laba\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\4\\3\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

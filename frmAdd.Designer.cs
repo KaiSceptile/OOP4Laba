@@ -76,9 +76,10 @@ namespace WinFormsApp1
             this.rbDetective.AutoSize = true;
             this.rbDetective.Location = new System.Drawing.Point(7, 129);
             this.rbDetective.Name = "rbDetective";
-            this.rbDetective.Size = new System.Drawing.Size(87, 24);
+            this.rbDetective.Size = new System.Drawing.Size(92, 24);
             this.rbDetective.TabIndex = 5;
-            this.rbDetective.Text = "Фэнтези";
+            this.rbDetective.TabStop = true;
+            this.rbDetective.Text = "Детектив";
             this.rbDetective.UseVisualStyleBackColor = true;
             this.rbDetective.CheckedChanged += new System.EventHandler(this.rbDetective_CheckedChanged);
             // 
@@ -87,9 +88,10 @@ namespace WinFormsApp1
             this.rbAdventure.AutoSize = true;
             this.rbAdventure.Location = new System.Drawing.Point(7, 109);
             this.rbAdventure.Name = "rbAdventure";
-            this.rbAdventure.Size = new System.Drawing.Size(109, 24);
+            this.rbAdventure.Size = new System.Drawing.Size(128, 24);
             this.rbAdventure.TabIndex = 4;
-            this.rbAdventure.Text = "Фантастика";
+            this.rbAdventure.TabStop = true;
+            this.rbAdventure.Text = "Приключение";
             this.rbAdventure.UseVisualStyleBackColor = true;
             this.rbAdventure.CheckedChanged += new System.EventHandler(this.rbAdventure_CheckedChanged);
             // 
@@ -120,9 +122,9 @@ namespace WinFormsApp1
             this.rbNovel.AutoSize = true;
             this.rbNovel.Location = new System.Drawing.Point(7, 47);
             this.rbNovel.Name = "rbNovel";
-            this.rbNovel.Size = new System.Drawing.Size(74, 24);
+            this.rbNovel.Size = new System.Drawing.Size(75, 24);
             this.rbNovel.TabIndex = 1;
-            this.rbNovel.Text = "Манга";
+            this.rbNovel.Text = "Роман";
             this.rbNovel.UseVisualStyleBackColor = true;
             this.rbNovel.CheckedChanged += new System.EventHandler(this.rbNovel_CheckedChanged);
             // 

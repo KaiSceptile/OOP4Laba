@@ -94,18 +94,16 @@ namespace WinFormsApp1
         {
             //Form1 Form1 = new Form1();
             Form1 Form1 = (Form1)this.Owner;
-            Manga manga = new Manga();
-            Form1.printedEdition = manga;
+            Novel novel = new Novel();
+            Form1.printedEdition = novel;
             PrintedEdition printedEdition = Form1.printedEdition;
             lblAuthor.Text = "Автор";
           //  lblGengre.Text = "Жанр";
             lblGengre.Visible = false;
-            tbGrade.Visible = false;
-            lblGrade.Visible = false;
             tbGenre.Visible = false;
             Form1.add = printedEdition =>
             {
-                AddFiction(manga);
+                AddFiction(novel);
             };
         }
 
@@ -119,8 +117,6 @@ namespace WinFormsApp1
             lblAuthor.Text = "Автор";
             lblGengre.Text = "Предметная область";
             lblGengre.Visible = true;
-            tbGrade.Visible = false;
-            lblGrade.Visible = false;
             tbGenre.Visible = true;
             Form1.add = printedEdition =>
             {
@@ -153,16 +149,9 @@ namespace WinFormsApp1
             {
                 //Form1 Form1 = new Form1();
                 Form1 Form1 = (Form1)this.Owner;
-                
-                if (Int32.Parse(tbCostKopecks.Text) < 100)
-                {
-                    PrintedEdition printedEdition = Form1.printedEdition;
-                    Form1.add(printedEdition);
-                    Form1.ShowList(Form1.listPrintedEdtions);
-                } else
-                {
-                    MessageBox.Show("Incorrect value of kopeks");
-                }
+                PrintedEdition printedEdition = Form1.printedEdition;
+                Form1.add(printedEdition);
+                Form1.ShowList(Form1.listPrintedEdtions);
             }
             catch
             {
@@ -171,30 +160,64 @@ namespace WinFormsApp1
             Close();
         }
 
+      /*  private void EditMagazine(PrintedEdition edition)
+        {
+            (edition as Magazine).PublishingHouse = tbAuthor.Text;
+        }
+
+        private void EditNonFiciton(PrintedEdition edition)
+        {
+            (edition as Non_Fiction).Author = tbAuthor.Text;
+            (edition as Non_Fiction).SubjectArea = tbGenre.Text;
+        }
+
+        private void EditSchoolBook(PrintedEdition edition)
+        {
+            (edition as SchoolBook).Author = tbAuthor.Text;
+            (edition as SchoolBook).SubjectArea = tbGenre.Text;
+            (edition as SchoolBook).Grade = Convert.ToInt32(tbGrade.Text);
+        }
+
+        private void EditFiction(PrintedEdition edition)
+        {
+            (edition as Fiction).Author = tbAuthor.Text;
+        }*/
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
             Form1 F = (Form1)this.Owner;
+            /*F.listPrintedEdtions[F.index].Name = tbName.Text;
+            F.listPrintedEdtions[F.index].Ruble = Convert.ToInt32(tbCostRubles.Text);
+            F.listPrintedEdtions[F.index].Kopeck = Convert.ToInt32(tbCostKopecks.Text);
+            F.listPrintedEdtions[F.index].NumberOfPages = Convert.ToInt32(tbNumberOfPages.Text);
+            switch (F.listPrintedEdtions[F.index].type)
+            {
+                case "Magazine": EditMagazine(F.listPrintedEdtions[F.index]);break;
+                case "Non_Fiction": EditFiction(F.listPrintedEdtions[F.index]); break;
+                case "SchoolBook": EditSchoolBook(F.listPrintedEdtions[F.index]); break;
+                case "Novel": EditFiction(F.listPrintedEdtions[F.index]); break;
+                case "Adventure": EditFiction(F.listPrintedEdtions[F.index]); break;
+                case "Detective": EditFiction(F.listPrintedEdtions[F.index]); break;
+            }*/
+            
             F.listPrintedEdtions[F.index].Edit(this);
-            F.ShowList(F.listPrintedEdtions);
+            Form1.ShowList(F.listPrintedEdtions);
             Close();
         }
 
         private void rbAdventure_CheckedChanged(object sender, EventArgs e)
         {
             Form1 Form1 = (Form1)this.Owner;
-            Fantastic fantastic = new Fantastic();
-            Form1.printedEdition = fantastic;
+            Adventure adventure = new Adventure();
+            Form1.printedEdition = adventure;
             PrintedEdition printedEdition = Form1.printedEdition;
             lblAuthor.Text = "Автор";
             //  lblGengre.Text = "Жанр";
             lblGengre.Visible = false;
-            tbGrade.Visible = false;
-            lblGrade.Visible = false;
             tbGenre.Visible = false;
             Form1.add = printedEdition =>
             {
-                AddFiction(fantastic);
+                AddFiction(adventure);
             };
 
         }
@@ -202,18 +225,16 @@ namespace WinFormsApp1
         private void rbDetective_CheckedChanged(object sender, EventArgs e)
         {
             Form1 Form1 = (Form1)this.Owner;
-            Fantasy fantasy = new Fantasy();
-            Form1.printedEdition = fantasy;
+            Detective detective = new Detective();
+            Form1.printedEdition = detective;
             PrintedEdition printedEdition = Form1.printedEdition;
             lblAuthor.Text = "Автор";
             //  lblGengre.Text = "Жанр";
             lblGengre.Visible = false;
             tbGenre.Visible = false;
-            tbGrade.Visible = false;
-            lblGrade.Visible = false;
             Form1.add = printedEdition =>
             {
-                AddFiction(fantasy);
+                AddFiction(detective);
             };
         }
     }

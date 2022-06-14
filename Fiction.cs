@@ -4,7 +4,6 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace WinFormsApp1
- 
 {
     public class Fiction:Book
     {
@@ -14,7 +13,7 @@ namespace WinFormsApp1
             this.type = "Book";
         }
         public override void ShowInList(DataGridView dgv)
-        {   
+        {
             string cost = Convert.ToString(this.Ruble);
             cost += "p. ";
             cost += Convert.ToString(this.Kopeck);
