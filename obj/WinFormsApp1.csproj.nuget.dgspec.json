@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Source\\Repos\\OOP3Laba\\WinFormsApp1.csproj": {}
+    "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Source\\Repos\\OOP3Laba\\WinFormsApp1.csproj": {
+    "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\OOP3Laba\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\OOP3Laba\\WinFormsApp1.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\OOP4Laba\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\OOP3Laba\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\OOP4Laba\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
