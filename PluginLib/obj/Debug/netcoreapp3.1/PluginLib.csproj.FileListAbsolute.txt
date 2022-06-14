@@ -1,0 +1,17 @@
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.csproj.AssemblyReference.cache
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.AssemblyInfoInputs.cache
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.AssemblyInfo.cs
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.csproj.CoreCompileInputs.cache
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.csproj.ResolveComReference.cache
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\WinFormsApp1.deps.json
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.json
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\WinFormsApp1.runtimeconfig.dev.json
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\WinFormsApp1.exe
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\PluginLib.deps.json
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\PluginLib.dll
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\PluginLib.pdb
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\WinFormsApp1.dll
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\bin\Debug\netcoreapp3.1\WinFormsApp1.pdb
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.csproj.CopyComplete
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.dll
+D:\универ\2 курс\4 сем\ООП\4\3\PluginLib\obj\Debug\netcoreapp3.1\PluginLib.pdb
